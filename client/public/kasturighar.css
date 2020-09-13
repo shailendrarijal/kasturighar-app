@@ -1,0 +1,231 @@
+body{
+    background-color: #9a7b4f;
+    background-color: #9a7b4f;
+background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color: #efefef;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    max-height: 100%; 
+    max-width: 100%;
+}
+section{
+    padding: 2rem;
+}
+.carousel-item p{
+    font-size: 1.5rem;
+}
+.testimonial-container, .product-card{
+    box-shadow: 0px 10px 5px #60713c;
+}
+h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#contactUs h2{
+    font-family: "Dancing Script";
+}
+
+#navbar{
+    background-color: #65350F;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #efefef;
+    font-family: "Dancing Script";
+}
+
+.nav-link{
+    margin: 0 1.5rem;
+    color: #efefef;
+
+}
+.navbar-toggler-icon{
+    color: #efefef;
+    transform: rotate(-90deg);
+}
+
+/*--------------------Sections-----------------*/
+
+#header{
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+
+}
+#about{
+    background-color: #65350F;
+ 
+    padding: 5rem 1rem;
+    text-align: center;
+    line-height: 2;
+}
+
+/*------------------Class Selectors------------*/
+
+.carousel-photo{
+
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border: 2px solid #65350F;
+    padding: .1rem;
+    box-shadow: 5px 5px 20px #65350F;
+}
+
+
+#header-carousel{
+    padding: 3rem 0;
+}
+
+.carousel-item{
+    height: 40rem;
+}
+
+
+/*------------------ABout US--------------------*/
+#collage-container{
+    width: 30vw;; 
+    float: left;
+}
+#about-text{
+    padding: 10px 10px;
+    line-height: 1.5;
+}
+
+/*------------------Products--------------------*/
+.product-card{
+    height: 30rem;
+    margin: 2rem auto 5rem auto;
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #65350F;
+ 
+}
+.product-card:hover{
+    padding: 1rem 2rem;
+}
+
+.product-img{
+    width: 100%;
+    height: 50%;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.price{
+    font-weight: bold;
+}
+
+/*------------------Testimonials--------------------*/
+.testimonial-container{
+    background-color: #65350F;
+    width: 75%;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+.testimonial-photo, .about-photo{
+    border-radius: 100%;
+    height: 110%;
+}
+
+
+
+/*------------------Contact--------------------*/
+.icon{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.icon-container{
+    cursor: pointer;
+    box-shadow: 1px 5px 10px #60713c;
+    background-color: #65350F;
+    width: 80%;
+    text-align: center;
+}
+
+#contactUs a{
+    color: #efefef;
+    text-decoration: none;
+}
+
+/*------------------Footer--------------------*/
+footer{
+    background-color: #65350F;
+    padding: 1rem 5rem;
+    text-align: center;
+
+}
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    color:#000;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .emailAddress, .phoneNumber{
+      margin: auto;
+  }
+ 
+
+@media only screen and (max-width: 600px) {
+    .carousel-photo{
+        width: 90%;
+        height: 70%;
+    }
+    .icon-container{
+        width: 40%;
+        margin: auto;
+    }
+    .testimonial-container{
+        width: 100%;
+    }
+  }

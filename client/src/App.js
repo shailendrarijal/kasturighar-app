@@ -1,13 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Products from './components/Products';
+import Testimonials from './components/Testimonials';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello World</p>
-      </header>
+      <Header />
+
+      <About />
+     
+      <Products />
+
+      <Testimonials />
+     
+      <Contacts />
+  
+      <Footer />
+      {/* <script src="src\kasturighar.js"></script> */}
     </div>
   );
 }
